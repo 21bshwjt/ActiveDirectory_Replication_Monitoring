@@ -5,3 +5,4 @@
 Refer this MSFT Blog for gMSA : https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/getting-started-with-group-managed-service-accounts
 
 #### SMTP varriables need to change manually from the Code.
+#### Additional Feather : That Code will generate the Logs as well so we can track the AD Replication issue for a specific date & time along-with the error code.

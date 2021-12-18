@@ -1,4 +1,4 @@
-# ActiveDirectory Replication Monitoring | HTML Email Alert | PowerShell
+# ActiveDirectory Replication Monitoring - HTML Email Alert using PowerShell
 ## Healthy replication in an AD forest is crucial & that needs to monitor for all orgs.
 
 1. Scheduled task need to be created with a Group Managed service account / Service account. Email will be trigged if there is Replication Error !

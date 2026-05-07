@@ -25,7 +25,7 @@ Maintaining healthy replication within an **Active Directory (AD) forest** is cr
 | Requirement | Details |
 |---|---|
 | PowerShell | Version 5.1 or later |
-| Permissions | Domain Admin or delegated replication monitoring rights |
+| Permissions | Normal AD user rights |
 | Service Account | gMSA or standard Service Account for Scheduled Task |
 | SMTP Server | Internal relay or external SMTP endpoint |
 

@@ -1,0 +1,12 @@
+# Logs and generated output
+Logs/
+*.log
+Output/
+*.htm
+*.xlsx
+~$*
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/

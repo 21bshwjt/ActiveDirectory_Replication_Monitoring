@@ -1,4 +1,4 @@
-# 03. Domain Controller - Conditional Forwaders
+# 03. Domain Controller - Conditional Forwarders
 
 try {
     # Discovery logic for DCs_List.txt
@@ -84,7 +84,6 @@ try {
     }
 }
 catch {
-    Write-Error "Error in 03_DC_Cond_Forwaders: $($_.Exception.Message)"
+    Write-Error "Error in 03_DC_Conditional_Forwarders: $($_.Exception.Message)"
 }
-# End of Conditional Forwadrs
-# End of Conditional Forwadrs
+# End of Conditional Forwarders

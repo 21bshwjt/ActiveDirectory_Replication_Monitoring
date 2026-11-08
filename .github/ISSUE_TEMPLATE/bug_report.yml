@@ -1,0 +1,28 @@
+name: 🐛 Bug report
+description: Something isn't working as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Include any error text from the transcript log. Remove real domain or server names.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Windows Server version
+      placeholder: Windows Server 2019
+    validations:
+      required: true
+  - type: input
+    id: repadmin
+    attributes:
+      label: repadmin version
+      description: "(Get-Item (Get-Command repadmin).Source).VersionInfo.ProductVersion"
+  - type: input
+    id: ps
+    attributes:
+      label: PowerShell version
+      placeholder: "5.1"

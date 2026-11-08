@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🔒 Security vulnerability
+    url: https://github.com/21bshwjt/ActiveDirectory_Replication_Monitoring/security/advisories/new
+    about: Please report security issues privately.

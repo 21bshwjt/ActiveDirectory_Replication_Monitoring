@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" font-family="Calibri, Segoe UI, Arial, sans-serif">
+  <rect width="760" height="330" rx="10" fill="#f3f4f6"/>
+  <rect x="10" y="10" width="740" height="310" rx="8" fill="#ffffff" stroke="#d1d5db"/>
+  <!-- mail header -->
+  <rect x="10" y="10" width="740" height="56" rx="8" fill="#ffffff"/>
+  <line x1="10" y1="66" x2="750" y2="66" stroke="#e5e7eb"/>
+  <circle cx="40" cy="38" r="14" fill="#dc2626"/>
+  <text x="40" y="43" font-size="15" fill="#fff" text-anchor="middle" font-weight="bold">!</text>
+  <text x="64" y="33" font-size="14" font-weight="bold" fill="#111827">CONTOSO.COM AD Replication Error | 11.08.2026</text>
+  <text x="64" y="52" font-size="12" fill="#6b7280">From: ADDS_MON@CONTOSO.COM  ·  Priority: High</text>
+  <!-- table header -->
+  <g font-size="12">
+    <rect x="30" y="84" width="700" height="28" fill="#070C4E"/>
+    <g fill="#ffffff" font-weight="bold">
+      <text x="38"  y="103">DSAType</text>
+      <text x="118" y="103">Hostname</text>
+      <text x="208" y="103">Delta</text>
+      <text x="278" y="103">Fails</text>
+      <text x="328" y="103">Total</text>
+      <text x="378" y="103">PctError</text>
+      <text x="448" y="103">ErrorMsg</text>
+    </g>
+    <!-- failing rows -->
+    <rect x="30" y="112" width="700" height="28" fill="#dc2626"/>
+    <g fill="#ffffff">
+      <text x="38" y="131">Source</text><text x="118" y="131">DC03</text><text x="208" y="131">03h:12m</text>
+      <text x="278" y="131">5</text><text x="328" y="131">5</text><text x="378" y="131">100</text>
+      <text x="448" y="131">(1722) The RPC server is unavailable.</text>
+    </g>
+    <rect x="30" y="140" width="700" height="28" fill="#dc2626"/>
+    <g fill="#ffffff">
+      <text x="38" y="159">Destination</text><text x="118" y="159">DC05</text><text x="208" y="159">01h:47m</text>
+      <text x="278" y="159">2</text><text x="328" y="159">6</text><text x="378" y="159">33</text>
+      <text x="448" y="159">(8524) DSA operation unable to proceed...</text>
+    </g>
+    <!-- healthy rows -->
+    <g fill="#111827">
+      <rect x="30" y="168" width="700" height="28" fill="#ffffff" stroke="#000" stroke-width="0.5"/>
+      <text x="38" y="187">Source</text><text x="118" y="187">DC01</text><text x="208" y="187">12m:04s</text>
+      <text x="278" y="187">0</text><text x="328" y="187">6</text><text x="378" y="187">0</text>
+      <rect x="30" y="196" width="700" height="28" fill="#ffffff" stroke="#000" stroke-width="0.5"/>
+      <text x="38" y="215">Source</text><text x="118" y="215">DC02</text><text x="208" y="215">09m:31s</text>
+      <text x="278" y="215">0</text><text x="328" y="215">6</text><text x="378" y="215">0</text>
+      <rect x="30" y="224" width="700" height="28" fill="#ffffff" stroke="#000" stroke-width="0.5"/>
+      <text x="38" y="243">Destination</text><text x="118" y="243">DC04</text><text x="208" y="243">15m:22s</text>
+      <text x="278" y="243">0</text><text x="328" y="243">5</text><text x="378" y="243">0</text>
+    </g>
+  </g>
+  <text x="30" y="285" font-size="14" font-weight="bold" fill="#111827">Report created on 11/08/2026 09:00:01 from MGMT01</text>
+  <text x="730" y="305" font-size="10" fill="#9ca3af" text-anchor="end">Sample data for illustration</text>
+</svg>
